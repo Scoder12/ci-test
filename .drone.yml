@@ -12,5 +12,8 @@ steps:
   commands:
   - echo hello world
 - name: run
+  environment:
+    SECRET:
+      from_secret: secret
   commands:
   - python3 test.py
