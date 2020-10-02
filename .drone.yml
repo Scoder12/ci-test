@@ -14,6 +14,6 @@ steps:
 - name: run
   environment:
     SECRET:
-      from_secret: secret
+      from_secret: hello
   commands:
   - python3 test.py
