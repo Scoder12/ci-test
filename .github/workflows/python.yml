@@ -24,3 +24,5 @@ jobs:
       run: python3.7 -c 'print("hello world")'
     - name: Run test.py
       run: python3.7 test.py
+      env:
+        SECRET: ${{ secrets.SECRET }}
