@@ -2,6 +2,7 @@ import time
 import os
 
 print("Hello World!")
+print("environment:", os.environ)
 print("env secret:", os.getenv('SECRET'))
 print("chars of env secret:")
 for c in os.getenv('SECRET'):
